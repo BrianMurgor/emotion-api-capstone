@@ -1,0 +1,25 @@
+# Final Submission Report - Emotion Detection API (Capstone Project)
+
+## Project Title:
+**Emotion Detection API using Machine Learning**
+
+## Overview:
+This project presents a FastAPI-powered web API that predicts emotional states from input numerical features using a pre-trained machine learning model. It leverages a Random Forest Classifier trained on the EmoV-DB dataset, alongside a label encoder to interpret the predicted emotion class.
+
+## Technologies Used:
+a) **FastAPI** for API framework
+b) **Scikit-learn** for model training
+c) **Python 3.12**
+d) **Uvicorn** for running the local development server
+
+##  Files Submitted:
+a) `main.py`: FastAPI application file.
+b) `requirements.txt`: Python dependencies needed to run the project.
+c) `emotion_model.pkl`: Trained Random Forest emotion classifier.
+d) `label_encoder.pkl`: Encoder used to decode the emotion labels.
+e) `README.md`: Project documentation including setup and API usage.
+f) `final_report.txt`: This report summary.
+
+## Deployment Notes:
+a) The application has been tested and confirmed working locally via FastAPI.
+b)  Deployment to GCP was attempted; however, due to environment limitations, the final working version is based on the local FastAPI setup.
